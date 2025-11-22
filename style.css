@@ -99,7 +99,7 @@ a:hover {
 }
 
 
-.hero::before {
+/* .hero::before {
   content: "";
   position: absolute;
   top: -40px;
@@ -112,7 +112,7 @@ a:hover {
   transform: skewY(-4deg);
   opacity: 0.75;
   z-index: -1;
-}
+} */
 
 .hero-inner {
   max-width: 1000px;
