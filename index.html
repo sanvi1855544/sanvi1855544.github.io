@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sanvi Pal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Your styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="logo">Sanvi <span>Pal</span></a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Sanvi Pal</h1>
+        <h2>Machine Learning × Neuroscience = Brain–Computer Interfaces</h2>
+        <p>
+          I’m an fourth-year undergraduate at Caltech, Computer Science major and Neurobiology minor.
+          
+          I am interested in brain–computer interfaces (BCIs) because of their potential to empower the disability
+          community with mind-reading prosthetics. My work has focused on applying machine learning to address the limitations of current noninvasive and invasive BCI systems.
+
+        </p>
+        <p>
+        You can find my CV
+        <a href="#" target="_blank">here</a> (coming soon).
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#research" class="btn-primary">View research</a>
+          <a href="#contact" class="btn-outline">Get in touch</a>
+        </div>
+
+        <div class="hero-icons">
+          <a href="https://github.com/sanvi1855544" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:spal2@caltech.edu" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" target="_blank" aria-label="Google Scholar">
+            <i class="fas fa-graduation-cap"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <!-- Put a square-ish photo named profile.jpg in the repo root -->
+        <img src="C:\Users\sanvi\sanvi1855544.github.io\assets\sanvi.JPG" alt="Photo of Sanvi" />
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h3>Research interests</h3>
+      <p>
+            I am excited to continue exploring / begin exploring the following topics:
+            <ul>
+                <li>Multimodal BCI systems, aligning different input modalities </li>
+                <li>Multifunctional BCI systems, generalizing to multiple tasks </li>
+                <li>Accurate generative models for synthetic neural data</li>
+                <li>Foundation/deep learning models to extract task-relevant signals from noisy neural data</li>
+                <li>Modeling brain drift as a stable, learnable trajectory </li>
+                <li>Any open problem in the BCI field that can be addressed with machine learning!</li>
+            </ul>
+        </p>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <h3>News</h3>
+      <ul class="timeline">
+        <li><span class="date">December 2025</span> Preparing PhD applications, applying to BCI/computational neuroscience labs!</li>
+        <li><span class="date">June 2025</span> Joined Rice BCI Lab under Prof. Nishal Shah! Began independent neural data generator project.</li>
+        <li><span class="date">April 2025</span> Submitted VARS-fUSI to Nature Communications!</li>
+        <li><span class="date">June 2024</span> Joined Andersen Lab and Anandkumar Lab's joint VARS-fUSI project!</li>
+        <li><span class="date">May 2024</span> Appointed to be IHC Advocacy Committee Chair!</li>
+        <li><span class="date">October 2023</span> Joined Yue Lab and Chung Lab's joint EEG decoding project!</li>
+        <li><span class="date">June 2023</span> Joined Burdick Lab's noninvasive therapy for Parkinson's disease project!</li>
+
+      </ul>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="publications/articles" class="section">
+      <h3>Research</h3>
+
+      <article class="card">
+        <h4>VARS-fUSI: Variable Sampling for Fast and Efficient Functional Ultrasound Imaging using Neural Operators</h4>
+        <p class="card-meta">April 23, 2025</p>
+        <p>
+          In submission to Nature Communications
+        </p>
+      </article>
+
+      <article class="card">
+        <h4>Life with a Brain Implant: Interview with clinical trial subject James Johnson</h4>
+        <p class="card-meta">May 17, 2024</p>
+        <p>
+          Published in school newspaper, The California Tech
+        </p>
+      </article>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="bci projects" class="section">
+      <h3>Selected Projects</h3>
+
+      <article class="card">
+        <h4>Intracortical Array (Spike) Data Project - Richard Andersen Lab + Anima Anandkumar AI & Science Lab</h4>
+        <p>
+          Mentored by Prof. Nishal Shah on a project using conditional latent diffusion to predict accurate spikes for augmenting BCI decoders.
+
+          Human subject (Trained diffusion model on T12 BrainGate data from Stanford NPTL)
+        </p>
+      </article>
+
+      <article class="card">
+        <h4>Functional ultrasound (fUS) Data Project - Richard Andersen Lab + Anima Anandkumar AI & Science Lab</h4>
+        <p>
+          Mentored by graduate student Lydia Lin + Prof. Bahareh Tolooshams on a project that uses neural operators to acquire
+          doppler images faster or with less computational resources.  
+
+          Monkey subjects (My favorite monkey in the Andersen Lab is Rudy.)
+        </p>
+      </article>
+
+      <article class="card">
+        <h4>Electroencephalography (EEG) Data Project - Yisong Yue Lab + Soon-Jo Chung Lab</h4>
+        <p>
+          Mentored by graduate students Geeling Chau + Yujin An on a project that explores if transformer-based architecture
+          TOTEM does a better job at denoising + decoding Motor Imagination EEG Data compared to state-of-the-art decoding pipelines.
+
+          Human subjects (I was one.)
+        </p>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h3>Contact</h3>
+      <p>
+        The best way to reach me is by email:
+        <a href="mailto:spal2@caltech.edu">spal2@caltech.edu</a>.
+      </p>
+      <p>
+        I’m a life-long learner excited to learn about what interests YOU! Feel free to reach out!
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © <span id="year"></span> Sanvi Pal
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
