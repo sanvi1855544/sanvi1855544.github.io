@@ -310,3 +310,8 @@ a:hover {
     margin-right: 1rem;
   }
 }
+
+.authors .me {
+  color: #38bdf8;  /* teal highlight */
+  font-weight: 600;
+}
